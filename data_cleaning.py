@@ -24,4 +24,4 @@ data = remove_attributes(data)
 data = remove_price_outliers(data)
 #print(data)
 
-data.to_csv('Data_preprocessed')
+data.to_csv('Data_preprocessed.csv')
